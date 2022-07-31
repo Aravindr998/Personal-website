@@ -1,0 +1,29 @@
+.fp-warning, .fp-watermark{
+    display: none !important
+}
+.my-name{
+    position: absolute;
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+}
+.front-page{
+    padding-top: 15em;
+}
+.about-me{
+    padding-top: 1em;
+}
+.first-page{
+    padding-bottom: 8em;
+}
+.skills{
+    width: 15em;
+    height: 17em;
+}
+.desc-about-me{
+    padding-left: 7em;
+}
+.para{
+    font-size: 1.1em;
+}
