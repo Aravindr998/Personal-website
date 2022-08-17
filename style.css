@@ -9,10 +9,10 @@
         text-align: center;
 }
 .front-page{
-    padding-top: 15em;
+    padding-top: 10em;
 }
 .about-me{
-    padding-top: 1em;
+    
 }
 .first-page{
     padding-bottom: 8em;
@@ -22,8 +22,37 @@
     height: 17em;
 }
 .desc-about-me{
+    padding-bottom: 7em;
     padding-left: 7em;
+    padding-right: 7em;
 }
 .para{
     font-size: 1.1em;
+}
+.picture{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+.image-bg{
+    background: url(Images/Picture.jpg);
+    background-size: cover;
+}
+.transparent{
+    background-color: rgba(52, 58, 64, 0.6);
+}
+#fp-nav ul li .fp-tooltip.fp-right {
+    color: black;
+}
+.fp-arrow.fp-prev {
+    border-color: transparent rgb(42, 58, 64) transparent transparent;
+}
+
+.fp-arrow.fp-next {
+    border-color: transparent transparent transparent rgb(42, 58, 64);
+}
+
+.fp-slidesNav.fp-bottom {
+    bottom: 32em;
+    left: 47% !important;
 }
