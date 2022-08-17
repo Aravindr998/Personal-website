@@ -56,3 +56,8 @@
     bottom: 32em;
     left: 47% !important;
 }
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
